@@ -29,8 +29,8 @@ body {
   display: flex;
   height: 700px;
   width: 1200px;
-  margin-left: 90px;
   background-position: center;
+  margin: auto;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
 
@@ -46,6 +46,9 @@ body {
   display: flex;
   align-items: center;
   height: 69px;
+  background-color: black;
+  position: fixed;
+  width: 100%;
 }
 
 .tea {
@@ -55,7 +58,7 @@ body {
 
 .downtown {
   width: 300px;
-  height: 300px;
+  height: 250px;
   background-color: black;
   margin-right: 40px;
   text-align: center;
@@ -72,7 +75,7 @@ body {
 
 .bayside {
   width: 300px;
-  height: 300px;
+  height: 250px;
   background-color: black;
   margin-right: 40px;
   opacity: 1;
@@ -85,6 +88,7 @@ body {
   justify-content: center;
   height: 500px;
   width: 1200px;
+  margin: auto;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 }
 
